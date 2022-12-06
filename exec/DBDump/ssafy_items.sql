@@ -1,0 +1,37 @@
+-- MySQL dump 10.13  Distrib 8.0.26, for Win64 (x86_64)
+--
+-- Host: 52.78.53.155    Database: ssafy
+-- ------------------------------------------------------
+-- Server version	8.0.30
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `items`
+--
+
+LOCK TABLES `items` WRITE;
+/*!40000 ALTER TABLE `items` DISABLE KEYS */;
+INSERT INTO `items` VALUES (1,'SELL','얼마 안 차서 깨끗해요\n급전 필요해서 눈물을 머금고 팝니다ㅠㅠ',0,'애플워치SE 40mm','애플워치SE 40mm','S','2022-08-19 07:48:09',200000,NULL,NULL,3),(2,'SELL','거의 안친 새것같은 기타! 서로 좋은 가격에 거래하고 싶어요',0,'S0706','기타','S','2022-08-19 07:48:41',470000,NULL,NULL,2),(3,'SELL','친구랑 우정반지로 맞춘건데 손절하게돼서 팔아요\n아무나 가져가세요~',0,'198867C08 ','판도라 탄생석 반지 1월','B','2022-08-19 07:59:32',5000,NULL,NULL,3),(4,'SELL','가끔 항공기 이륙하는 소리가 납니다.\n무거워서 집에서 쓰시는 분이 가져가시면 좋을 것 같아요.',0,'삼성전자 오디세이 NT850XBW-XD7A (SSD 256GB) ','삼성 오디세이 9세대','A','2022-08-19 08:01:31',1200000,NULL,NULL,3),(5,'SELL','미개봉 새상품입니다!',0,'맥 루비우','맥 루비우','S','2022-08-19 08:02:41',20000,NULL,NULL,3),(6,'SELL','한번도 사용하지 않은 공인구입니다.',0,'Al Rihla','22년 월드컵 공인구','S','2022-08-19 09:57:52',70000,NULL,NULL,7),(8,'SELL','대동강에 흐르는 물',0,'99','대동강물','S','2022-08-19 10:30:47',102,NULL,NULL,4),(9,'SELL','케이크 싸게 팔아요',0,NULL,'사일런트 기타','A','2022-08-19 11:13:36',155000,NULL,NULL,1);
+/*!40000 ALTER TABLE `items` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2022-08-19 11:21:32

@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "outDir": "./built", // "Cannot write file ... because it would overwrite input file." 오류 해결
+    "noUnusedParameters": false, // 함수 인자
+    "noUnusedLocals": false, // 사용하지 않는 변수
+    "target": "es5",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "checkJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": [
+      "webpack-env"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+, "src/assets/js/openvidu-browser-2.22.0.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
